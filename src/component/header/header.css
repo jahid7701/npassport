@@ -1,0 +1,41 @@
+
+.belal{
+    height:100px;
+    width:100%;
+    background-color:#075E24;
+    position:sticky;
+    top:0;
+    z-index:100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.plogo{
+    height:60px;
+    width: 60px;
+    border-radius:50%;
+}
+.glogo{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+}
+.belal p{
+    color:white;
+    font-weight: bold;
+}
+.lflogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.rflogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right:30px;
+}

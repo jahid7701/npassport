@@ -1,0 +1,39 @@
+.mih{
+    height:50px;
+    width:300px;
+    background-color:wheat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index:400;
+    justify-content: space-around;
+    color: blue;
+    position:fixed;
+    left:750px;
+    top:100px;
+    
+}
+.langua{
+    display:flex;
+    height: 100%;
+    width:130px;
+    
+    align-items: center;
+    
+}
+.langua p{
+    margin-left:5px;
+}
+.langua p:first-child{
+    background-color: aqua;
+    padding:8px;
+}
+.fonts{
+    display: flex;
+    height:100%;
+    width:60px;
+    align-items: center;
+   font-size:1.5rem;
+   justify-content: space-between;
+
+}

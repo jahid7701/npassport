@@ -1,0 +1,10 @@
+.footer-div{
+    height:90px;
+    width: 100%;
+    background-color:rgb(42, 42, 112);
+    z-index:1000;
+}
+.fahim{
+    margin-left:450px;
+    margin-top:70px;
+}

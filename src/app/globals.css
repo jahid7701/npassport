@@ -1,0 +1,135 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+/* home */
+.home{
+  height:100vh;
+  width: 100%;
+  background-color:darkmagenta;
+
+}
+.middlehead{
+  height:200px;
+  width:100%;
+  background-image: url("../component//image//pa2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;     
+}
+
+
+.apply{
+  height: 400px;
+  width: 100%;
+}
+
+.myf{
+  margin-top:200px;
+}
+.card{
+  width: 1000px;
+  height:600px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  align-items: center;
+  position: absolute;
+}
+.bangladeshi1_o{
+  display: none;
+  margin-left: 100px;
+}
+.radiob{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 150px;
+  flex-direction: column;
+  height:100px;
+  margin-left:60px;
+}
+.ghome{
+  font-size: 4rem;
+ 
+}
+.khoki{
+  font-size: 3rem;
+}
+.native input{
+  padding:7px 90px;
+  margin-top:5px;
+}
+.foreign input{
+  padding:7px 90px;
+  margin-top:5px;
+}
+.btn{
+  padding:8px 15px;
+  background-color:seagreen;
+  border:none;
+  margin-top:20px;
+  color: aliceblue;
+  font-size:1.05rem;
+  
+}
+.bangladeshi1_o h2{
+  margin-bottom:20px;
+}
+.jahil{
+  margin-top:20px;
+}
+.hnn{
+  margin-top:20px;
+}
+.bangladeshi1_p{
+  display: block;
+  margin-left:100px;
+}
+.fuji{
+  margin-top:20px;
+}
+.haji{
+  margin-left:100px;
+  margin-top:70px
+  }
+  
+ .navbot {
+  background-color: rgb(234, 225, 225);
+  height:80px;
+  width:100%;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items: center;
+ }
+ .navbot  a{
+  height:100%;
+  padding:25px 30px;
+
+  text-decoration: none;
+ }
+ .navbot a:active{
+  background-color: #1E88E5;
+ }
+ .navbot a:hover{
+  background-color: #1E88E5;
+ }
+ .navbot .asia{
+  background-color:rgb(207, 205, 200);
+ }
+ .navbot .asia:hover{
+  color: white;
+  background-color: #1E88E5;
+ }
+.hasanp{
+  position: absolute;
+}
+.bottomhead{
+  position:sticky;
+  top:150px;
+  z-index:900;
+}
