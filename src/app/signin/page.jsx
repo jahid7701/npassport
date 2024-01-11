@@ -30,7 +30,7 @@ export default  function SignIn(){
             <input type="password" onChange={e=>setPassword(e.target.value)}/>
             </div>
             <Link href={"/forgot"}>Forgot Password</Link>       
-            <button>Sign In</button>
+            <button type="submit" >Sign In</button>
             </form>
         </div>
     )
