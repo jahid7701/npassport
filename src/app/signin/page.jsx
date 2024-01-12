@@ -7,8 +7,8 @@ export default  function SignIn(){
     const [email,setEmail]=useState("");
     const [password,setPassword]=useState("");   
     const router=useRouter();
-    async function  handlesub(event){
-      event.preventDefault()
+    async function  handlesub(){
+      
       try{
    await axios.post("/api/signin",{email,password})
    .then((res)=>{console.log(res)})
