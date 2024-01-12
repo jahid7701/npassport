@@ -7,10 +7,10 @@ export default  function SignIn(){
     const [email,setEmail]=useState("");
     const [password,setPassword]=useState("");   
     const router=useRouter();
-    async function  handlesub(){
-      
+    async function  handlesub(event){
+      event.preventDefault();
       try{
-   await axios.post("/api/signin",{email,password})
+   await axios.post( "/api/signin",{email,password})
    .then((res)=>{console.log(res)})
    
     router.push("/");
@@ -21,7 +21,7 @@ export default  function SignIn(){
   }
     return(
         <div>
-            < form onSubmit={handlesub}>
+            < form method="post" onSubmit={handlesub}>
             <h1>Enter Online Registration Portal</h1>
             <div><label htmlFor="email">Email address</label><br/>
             <input type="email"  onChange={e=>setEmail(e.target.value)}/>
