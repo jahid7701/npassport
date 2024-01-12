@@ -16,7 +16,7 @@ export default  function SignIn(){
     router.push("/");
   }
     catch(error){
-      console.log("Error during registration")
+      console.log("Error During registration")
     }
   }
     return(
