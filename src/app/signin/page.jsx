@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link";
 import { useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 import { useRouter } from 'next/navigation';
 export default  function SignIn(){
     const [email,setEmail]=useState("");
@@ -9,15 +9,17 @@ export default  function SignIn(){
     const router=useRouter();
     async function  handlesub(event){
       event.preventDefault();
-      try{
-   await axios.post( "/api/signin",{email,password})
-   .then((res)=>{console.log(res)})
+      router.push("/");
+
+  //     try{
+  //  await axios.post( "/api/signin",{email,password})
+  //  .then((res)=>{console.log(res)})
    
-    router.push("/");
-  }
-    catch(error){
-      console.log("Error During registration")
-    }
+  //  
+  // }
+  //   catch(error){
+  //     console.log("Error During registration")
+  //   }
   }
     return(
         <div>
